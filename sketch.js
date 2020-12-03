@@ -81,41 +81,19 @@ function setup()
   textStyle(BOLD);
   createCanvas(700, 700);
   background(0, 0, 0);
-  textSize(21);
+  textSize(25);
   fill(33, 247, 5);
   imageMode(CENTER);
   frameRate(12);
 
-  text("Kðrêå hå§ å lðñg hï§†ðr¥ å§ å ñå†ïðñ åñÐ ï† ", 60, 100);
-  text("hå§ ÐêvêlðþêÐ å µñïqµê ñå†ïðñål ïÐêñ†ï†¥ µñÐêr ", 60, 70);
-  text("†hê Çðñ£µ¢ïµ§ †råÐï†ïðñ §êêïñg †hê ñå†ïðñ å§ ", 60, 40);
-  text("åñ êx†êñÐêÐ £ðrm ð£ £åmïl¥. Hðwêvêr,§µ¢h å ¢ðñ¢êþ†ïðñ ð£ ñå†ïðñål ïÐêñ†ï†¥ hå§ ßêêñ  ", 60, 210);
-  text("§µ¢h å ¢ðñ¢êþ†ïðñ ð£ ñå†ïðñål ïÐêñ†ï†¥ hå§ ßêêñ", 60, 130);
-  text("k໐rēค hคŞ ค l໐ຖງ hiŞt໐rฯ คŞ ค ຖคti໐ຖ คຖ໓ it hคŞ ໓ēงēl໐pē໓ ค นຖi๑นē.", 60, 180);
-  text("ຖคti໐ຖคl i໓ēຖtitฯ นຖ໓ēr thē ¢໐ຖfน¢iนŞ trค໓iti໐ຖ Şēēiຖງ thē.", 60, 240);
-  text("ຖคti໐ຖ คŞ คຖ ēxtēຖ໓ē໓ f໐r๓ ໐f fค๓ilฯ h໐ຟēงēr, Şน¢h ค ¢໐ຖ¢ēpti໐ຖ ໐f ຖคti໐ຖคl.", 60, 270);
-  text("i໓ēຖtitฯ hคŞ ๖ēēຖ ¢hคຖງiຖງ นຖ໓ēr rคpi໓lฯ ¢hคຖງiຖງ ¢ir¢น๓Ştคຖ¢ēŞ Şน¢h คŞ ງl໐๖คliຊคti໐ຖ.", 60, 300);
-  text("ᏦᎧᏒᏋᏗ ᏂᏗᏕ Ꮧ ᏝᎧᏁᎶ ᏂᎥᏕᏖᎧᏒᎩ ᏗᏕ Ꮧ ᏁᏗᏖᎥᎧᏁ ᏗᏁᎴ ᎥᏖ ᏂᏗᏕ ᎴᏋᏉᏋᏝᎧᎮᏋᎴ Ꮧ .", 60, 330);
-  text("ᏬᏁᎥᎤᏬᏋ ᏁᏗᏖᎥᎧᏁᏗᏝ ᎥᎴᏋᏁᏖᎥᏖᎩ ᏬᏁᎴᏋᏒ ᏖᏂᏋ ፈᎧᏁᎦᏬፈᎥᏬᏕ ᏖᏒᏗ.", 60, 360);
-  text("¢håñgïñg µñÐêr råþïÐl¥ ¢håñgïñg ¢ïr¢µm§†åñ¢ê§ §µ¢h å§ glðßålïzå†ïðñ.", 60, 390);
-  text("What is my Korean identity?", 270, 460);
-  text("What is my Korean identity?", 250, 490);
-  text("What is my Korean identity?", 230, 520);
-  text("What is my Korean identity?", 210, 550);
-  text("What is my Korean identity?", 190, 580);
-  text("What is my Korean identity?", 170, 610);
-  text("What is my Korean identity?", 150, 640);
-  text("What is my Korean identity?", 130, 670);
+
+  text("In the dragons' Ages you go on a journey to kill dragons", 60, 240);
+  text(" to get the Dragon Slayer title", 52, 280);
 
 
-
-
-
-
-
-
-  button = createButton("Get My Identity");
+  button = createButton("Begin your journey");
   button.mousePressed(buttonPressed);
+  button.position(280,650);
   button.style("padding","50px,40px");
   button.style("background-color", "#35f50a");
 
