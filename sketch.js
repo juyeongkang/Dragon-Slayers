@@ -78,21 +78,21 @@ function setup()
   }
   textFont('VT323');
   textStyle(BOLD);
-  createCanvas(700, 700);
+  createCanvas(750, 750);
   background(0, 0, 0);
-  textSize(25);
+  textSize(29);
   fill(33, 247, 5);
   imageMode(CENTER);
   frameRate(12);
 
 
   text("In the dragons' Ages you go on a journey to kill dragons", 60, 240);
-  text(" to get the Dragon Slayer title", 52, 280);
+  text(" to get the Dragon Slayer title.", 52, 280);
 
 
   button = createButton("Begin your journey");
   button.mousePressed(buttonPressed);
-  button.position(280,650);
+  button.position(305,620);
   button.style("padding","50px,40px");
   button.style("background-color", "#35f50a");
 
