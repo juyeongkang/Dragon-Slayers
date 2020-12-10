@@ -1,10 +1,9 @@
-
 let randomIndex;
 let button;
 let animating = false;
 let face = [];
 let imageCounter = 1;
-let first =
+let first = 0
 
 
 [
@@ -105,15 +104,17 @@ function draw()
   {
     clear();
     image(face[imageCounter], width / 2, height / 2);
-
+    console.log("imageCounter:" + imageCounter)
     if (imageCounter < face.length - 1)
     {
       imageCounter++;
-      console.log(imageCounter);
+  //    console.log("imageCouter:" + imageCounter);
     } else
     {
       imageCounter = 1;
+//      console.log("secondimgCouter:" + imageCounter);
     }
+  //  console.log("final: " + imageCounter)
   }
 }
 
@@ -128,6 +129,8 @@ function randomizer()
     randomIndex = int(random(first.length));
     text(`Hi, ${first[randomIndex].first} ${first[randomIndex].middle} ${first[randomIndex].last}`, 100, 200);
     text(`your Korean name means ${first[randomIndex].meaning}`, 100, 230);
+    print("randomIndex: " + randomIndex)
+
     image(random(face), width / 2, height / 2);
     first.splice(randomIndex, 1);
   } else
