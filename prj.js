@@ -188,8 +188,8 @@ function dragon() {
 
 function attack() {
   let final = ["Your name is " + first + " and your class is " + jobs[job - 1] +".\nYou killed the dragon with your weapon " + weapons[weapon - 1] + "\n and won the Dragon Slayer title."
-  , "Your name is "  + first + " and your class is " + jobs[job - 1] +".\nYour weapon " + weapons[weapon - 1] + " had a fierce battle with the dragon,\nbut was killed by the dragon.",
-  "Your name is " + first + ".\nYour class is " + jobs[job - 1] +". Your weapon " + weapons[weapon - 1] + " had a fierce battle with the dragon,\nbut the dragon was seriously injured and fled to another world."];
+  , "Your name is "  + first + " and your class is " + jobs[job - 1] +".\nYour weapon " + weapons[weapon - 1] + " you had a fierce battle with the dragon,\nbut was killed by the dragon.",
+  "Your name is " + first + ".\nYour class is " + jobs[job - 1] +". Your weapon is " + weapons[weapon - 1] + " you had a fierce battle with the dragon,\nbut the dragon was seriously injured and fled to another world."];
 
   let ends = random(final);
 
